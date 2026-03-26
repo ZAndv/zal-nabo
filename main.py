@@ -1,6 +1,8 @@
 from operations import *
 from history import save_history, show_history
-import os
+
+from utils import get_number
+
 
 def menu():
     print("\n--- Kalkulator CLI ---")
@@ -21,8 +23,8 @@ def main():
         if choice == "0":
             break
         elif choice in ("1", "2", "3", "4", "5"):
-            a = float(input("Podaj pierwszą liczbę: "))
-            b = float(input("Podaj drugą liczbę: "))
+            a = get_number("Podaj pierwszą liczbę: ")
+            b = get_number("Podaj drugą liczbę: ")
 
             if choice == "1":
                 result = add(a, b)
@@ -40,10 +42,10 @@ def main():
                 result = power(a, b)
                 operation = f"{a}^{b}"
         elif choice == "6":
-            a = float(input("Podaj pierwszą liczbę: "))
+            a = get_number("Podaj pierwszą liczbę: ")
             result = square_root(a)
             operation = f"sqrt({a})"
-        elif choice == "7" and os.path.exists("history.txt"):
+        elif choice == "7":
             show_history()
             continue
         else:
