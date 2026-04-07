@@ -1,6 +1,6 @@
 import pytest
 
-from operations import *
+from operations import multiply, divide, add, subtract, power, square_root
 
 
 class TestOperations:
