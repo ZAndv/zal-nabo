@@ -1,4 +1,4 @@
-from operations import *
+from operations import multiply, divide, add, subtract, power, square_root
 from history import save_history, show_history
 
 from utils import get_number
