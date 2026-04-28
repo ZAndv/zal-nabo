@@ -1,3 +1,5 @@
+[![demo](https://github.com/ZAndv/zal-nabo/actions/workflows/demo.yml/badge.svg)](https://github.com/ZAndv/zal-nabo/actions/workflows/demo.yml)
+
 Kalkulator CLI (pełne)
 
  Opis projektu
@@ -25,3 +27,11 @@ Oleksandr  Boiarov 2 – interfejs CLI
 Maksym Podzolkin 3 – historia obliczeń
 Hlib Kvasnevskyi 4 – obsługa błędów
 Andrii Kuzynskyi 5 – testowanie
+
+Instrukcja uruchomienia: 
+
+1.)docker pull olaspa/calc-cli:latest
+
+2.)docker run -it olaspa/calc-cli:latest
+
+Link do obrazu Docker: https://hub.docker.com/repository/docker/olaspa/calc-cli/general
