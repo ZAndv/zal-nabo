@@ -34,4 +34,4 @@ Instrukcja uruchomienia:
 
 2.)docker run -it olaspa/calc-cli:latest
 
-Link do obrazu Docker: https://hub.docker.com/repository/docker/olaspa/calc-cli/general
+Link do obrazu Docker: https://hub.docker.com/repository/docker/olaspa/calc-cli
