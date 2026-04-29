@@ -12,7 +12,7 @@ def menu():
     print("4. Dzielenie")
     print("5. Potęga")
     print("6. Pierwiastek")
-    print("7. Historia")
+    print("7. Histori")
     print("0. Wyjście")
 
 def main():
